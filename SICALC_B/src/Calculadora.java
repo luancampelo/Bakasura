@@ -29,8 +29,27 @@ public class Calculadora {
 		valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor1"));
 		valor2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor2"));
 
-		System.out.println("A soma dos valores eh = " + (valor1 + valor2));
+		System.out.println("A soma dos valores eh " + (valor1 + valor2));
 	}
 
+	public void subtrair () {
+		valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor1"));
+		valor2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor2"));
 
+		System.out.println("A subtração dos valores eh " + (valor1 - valor2));
+	}
+
+	public void multiplicar () {
+		valor1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor1"));
+		valor2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Valor2"));
+
+		System.out.println("A multiplicação dos valores eh " + (valor1 * valor2));
+	}
+
+	public void divisão	() {
+		valor1 = Integer.parseInt(JOptionPane.showInputDialog ("Digite o Valor1"));
+		valor2 = Integer.parseInt(JOptionPane.showInputDialog ("Digite o Valor2"));
+
+		System.out.println("A divisão dos valores eh " + (valor1 / valor2));
+	}	
 }
